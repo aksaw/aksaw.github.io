@@ -1,0 +1,60 @@
+body {
+    background-color: #fafafa;
+    margin: 0;
+    overflow: hidden;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+h1, h2 {
+  color:#333;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 300%;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 16 0%;
+}
+
+header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center
+}
+
+/* footer */
+
+footer {
+  width:100%;
+  position:fixed;
+  text-align:center;
+  bottom:50px;
+  -webkit-font-smoothing:subpixel-antialiased;
+}
+
+.social-links i{
+  display: inline-block;
+  text-align: center;
+  /*width: 30px;*/
+  /*height: 30px;*/
+  margin-right: 5px; /*space between*/
+  font-size: 20px;
+  line-height: 40px;
+  color: #909090;
+}
+
+.social-links i:hover {
+    color: #464646;
+}
