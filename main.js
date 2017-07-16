@@ -67,8 +67,8 @@ function render() {
     // ry = Math.sin( time * 0.3 ) * 0.5,
     // rz = Math.sin( time * 0.2 ) * 0.5;
     
-    camera.position.x += ( mouseX - camera.position.x ) * .055;
-    camera.position.y += ( - mouseY - camera.position.y ) * .055;
+    camera.position.x += ( mouseX - camera.position.x ) * .07;
+    camera.position.y += ( - mouseY - camera.position.y ) * .07;
     camera.lookAt( scene.position );
     
     // group.rotation.x = rx;
