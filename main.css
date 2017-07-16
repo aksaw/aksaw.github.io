@@ -1,7 +1,8 @@
 body {
-    background-color: #fafafa;
-    margin: 0;
+    background-color: #f8f8f8;
+    /*margin: 0; */
     overflow: hidden;
+    font-family: "Droid Serif", serif;
 }
 
 canvas {
@@ -12,7 +13,7 @@ canvas {
 
 
 h1, h2 {
-  color:#333;
+  color:#282828;
   margin: 0;
 }
 
@@ -34,7 +35,7 @@ header {
   text-align: center
 }
 
-/* footer */
+/* footer (fix this!) */
 
 footer {
   width:100%;
@@ -49,12 +50,19 @@ footer {
   text-align: center;
   /*width: 30px;*/
   /*height: 30px;*/
-  margin-right: 5px; /*space between*/
+  margin-right: 5px;
   font-size: 20px;
   line-height: 40px;
-  color: #909090;
+  color: #808080;
 }
 
 .social-links i:hover {
-    color: #464646;
+    color: #282828;
+}
+
+/* no text selection */
+.disable-select {
+  -webkit-user-select: none; /* Chrome/Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
 }
