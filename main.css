@@ -4,10 +4,10 @@ html{
 
 body {
     background-color: #f8f8f8;
-    background: radial-gradient(circle, #ffffff, #d0d0d0);
-    background: -webkit-radial-gradient(circle, #ffffff, #d0d0d0);
-    background: -o-radial-gradient(circle, #ffffff, #d0d0d0);
-    background: -moz-radial-gradient(circle, #ffffff, #d0d0d0);
+    background: radial-gradient(circle, #ffffff, #dddddd);
+    background: -webkit-radial-gradient(circle, #ffffff, #dddddd);
+    background: -o-radial-gradient(circle, #ffffff, #dddddd);
+    background: -moz-radial-gradient(circle, #ffffff, #dddddd);
     background-repeat: no-repeat;
     background-attachment: fixed;
     overflow: hidden;
